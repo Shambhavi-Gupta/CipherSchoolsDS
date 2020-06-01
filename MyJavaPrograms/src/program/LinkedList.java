@@ -1,12 +1,12 @@
 package program;
 
 
-public class LinkedList {
-	private Node head;
+ class LinkedList {
+	 Node head;
 	 
 	private static class Node {
-		private int value;
-		private Node next;
+		 int value;
+		 Node next;
  
 		Node(int value) {
 			this.value = value;
