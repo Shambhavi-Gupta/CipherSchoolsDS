@@ -25,17 +25,17 @@ public class name {
 	        { 
 	            if ((i == 0 || i == height / 2
 	                || i == height - 1))             // S
-	                System.out.printf("*"); 
+	                System.out.print("*"); 
 	            else if (i < height / 2
 	                    && j == 0) 
-	                System.out.printf("*"); 
+	                System.out.print("*"); 
 	            else if (i > height / 2
 	                    && j == height - 1) 
-	                System.out.printf("*"); 
+	                System.out.print("*"); 
 	            else
-	                System.out.printf(" "); 
+	                System.out.print(" "); 
 	        } 
-	      System.out.printf("\n"); 
+	      System.out.print("\n"); 
 	    } 
 	   
 	    {  
@@ -46,11 +46,11 @@ public class name {
 	            { 
 	                if ((j == height - 1) 
 	                    || (i == height / 2)) 
-	                    System.out.printf("*"); 
+	                    System.out.print("*"); 
 	                else
-	                    System.out.printf(" "); 
+	                    System.out.print(" "); 
 	            } 
-	            System.out.printf("\n"); 
+	            System.out.print("\n"); 
 	        } 
 	    
 		int n = width / 2 ; 
@@ -61,11 +61,11 @@ public class name {
 	            if (j == n || j == (width - n)                //A
 	                || (i == height / 2 && j > n 
 	                    && j < (width - n))) 
-	                System.out.printf("*"); 
+	                System.out.print("*"); 
 	            else
-	                System.out.printf(" "); 
+	                System.out.print(" "); 
 	        } 
-	        System.out.printf("\n"); 
+	        System.out.print("\n"); 
 	        n--; 
 	    } 
 	    
@@ -77,12 +77,12 @@ public class name {
 		        for (j = 0; j <= height; j++) 
 		        { 
 		            if (j == height) 
-		                System.out.printf("*"); 
+		                System.out.print("*"); 
 		            else if (j == counter                //M
 		                    || j == height - counter - 1) 
-		                System.out.printf("*"); 
+		                System.out.print("*"); 
 		            else
-		                System.out.printf(" "); 
+		                System.out.print(" "); 
 		        } 
 		        if (counter == height / 2) 
 		        { 
@@ -90,42 +90,42 @@ public class name {
 		        } 
 		        else
 		            counter++; 
-		       System.out.printf("\n"); 
+		       System.out.print("\n"); 
 		    } 
 	    
 		    { 
 		        int  half = (height / 2); 
 		        for (i = 0; i < height; i++) 
 		        { 
-		            System.out.printf("*"); 
+		            System.out.print("*"); 
 		            for (j = 0; j < width; j++) 
 		            { 
 		                if ((i == 0 || i == height - 1 || i == half) 
 		                    && j < (width - 2))                         //B
-		                    System.out.printf("*"); 
+		                    System.out.print("*"); 
 		                else if (j == (width - 2) 
 		                        && !(i == 0 || i == height - 1
 		                            || i == half)) 
-		                    System.out.printf("*"); 
+		                    System.out.print("*"); 
 		                else
-		                    System.out.printf(" "); 
+		                    System.out.print(" "); 
 		            } 
-		            System.out.printf("\n"); 
+		            System.out.print("\n"); 
 		        } 
 		        
 		        {  
 			        for (i = 0; i < height; i++)  
 			        { 
-			            System.out.printf("*"); 
+			            System.out.print("*"); 
 			            for (j = 0; j < height; j++)           //H
 			            { 
 			                if ((j == height - 1) 
 			                    || (i == height / 2)) 
-			                    System.out.printf("*"); 
+			                    System.out.print("*"); 
 			                else
-			                    System.out.printf(" "); 
+			                    System.out.print(" "); 
 			            } 
-			            System.out.printf("\n"); 
+			            System.out.print("\n"); 
 			        } 
 				
 			         
@@ -136,11 +136,11 @@ public class name {
 				            if (j == n || j == (width - n)                //A
 				                || (i == height / 2 && j > n 
 				                    && j < (width - n))) 
-				                System.out.printf("*"); 
+				                System.out.print("*"); 
 				            else
-				                System.out.printf(" "); 
+				                System.out.print(" "); 
 				        } 
-				        System.out.printf("\n"); 
+				        System.out.print("\n"); 
 				        n--; 
 				    }  
 					
@@ -151,12 +151,12 @@ public class name {
 						        { 
 						            if (j == counter 
 						                || j == width - counter - 1)     //V
-						                System.out.printf("*"); 
+						                System.out.print("*"); 
 						            else
-						                System.out.printf(" "); 
+						                System.out.print(" "); 
 						        } 
 						        counter++; 
-						       System.out.printf("\n"); 
+						       System.out.print("\n"); 
 						    } 
 						} 
 		
@@ -166,13 +166,13 @@ public class name {
 					        for (j = 0; j < height; j++) 
 					        { 
 					            if (i == 0 || i == height - 1)     //I
-					                System.out.printf("*"); 
+					                System.out.print("*"); 
 					            else if (j == height / 2) 
-					                System.out.printf("*"); 
+					                System.out.print("*"); 
 					            else
-					                System.out.printf(" "); 
+					                System.out.print(" "); 
 					        } 
-					        System.out.printf("\n"); 
+					        System.out.print("\n"); 
 					    } 
 					} 
 			}		
