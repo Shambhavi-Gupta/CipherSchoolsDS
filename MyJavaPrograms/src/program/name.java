@@ -2,17 +2,13 @@ package program;
 
 public class name {
 
-	// Below height and width variable can be used 
-	// to create a user-defined sized alphabet's pattern 
-	  
-	// Number of lines for the alphabet's pattern 
+	
 	static int height = 5; 
 	  
-	// Number of character width in each line 
+	
 	static int width = (2 * height) - 1; 
 	  
-	// Function to find the absolute value 
-	// of a number D 
+	
 	static int abs(int d) 
 	{ 
 	    return d < 0 ? -1 * d : d; 
