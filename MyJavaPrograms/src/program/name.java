@@ -41,7 +41,7 @@ public class name {
 	    {  
 	        for (i = 0; i < height; i++)  
 	        { 
-	            System.out.printf("*"); 
+	            System.out.print("*"); 
 	            for (j = 0; j < height; j++)           //H
 	            { 
 	                if ((j == height - 1) 
@@ -73,7 +73,7 @@ public class name {
 		    int  counter = 0; 
 		    for (i = 0; i < height; i++) 
 		    { 
-		        System.out.printf("*"); 
+		        System.out.print("*"); 
 		        for (j = 0; j <= height; j++) 
 		        { 
 		            if (j == height) 
