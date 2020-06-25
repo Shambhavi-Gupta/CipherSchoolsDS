@@ -1,0 +1,11 @@
+...Welcome to Magical game...
+Enter any of these:
+1.ROCK
+2.PAPER
+3.SCISSORS
+
+Rock
+Player move is:ROCK
+Computer move is:PAPER
+
+Ohh!! Computer Wins..Better luck next time
